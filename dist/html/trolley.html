@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>订单页</title>
+		<link rel="stylesheet" href="../css/trolley.min.css">
+		<link rel="stylesheet" href="../css/asus_base.min.css">
+		
+		<script src="../js/require.js" async="true" defer data-main="../js/trolley"></script>
+	</head>
+	<body>
+		<!-- 头部 -->
+		<div class="header">
+			<div class="topbar">
+				<ul>
+					<li>
+						<a href="login.html">登录</a>|
+						<a href="login.html">注册</a>
+					</li>
+					<li><a href="">消息</a></li>
+					<li><a href="trolley.html">我的订单</a></li>
+					<li >
+						<div class="minicar">
+							<a href="">
+								购物车
+								<span>(</span>
+								<b class="sc_num"">0</b>
+								<span>)</span>
+							</a>
+							<div class=" trolley ">
+								<!-- <div class="t-1">购物车中还没有商品,赶紧选购吧！</div> -->
+								<ul>
+									<!-- <li>
+										<div class="goods-pic">
+											<a href="">
+												<img src="https://static.asus.com.cn/store/20180918/15071955575110.png" alt="">
+											</a>
+										</div>
+										<div class="goods-info">
+												<h3 class="goods-name">
+													<a href="">【超级会员日】【爆款预售】a豆ADOL13UA- 萌宠四面窄边框13英寸笔记本 (Windows10home/i7-8550U/8GB内存/256GB SSD/集成显卡)-皓月银</a>
+												</h3>
+												<div class="goods-price">
+													<p>x
+														<span class="p-quantity">
+															1
+														</span>
+													
+													</p>
+												</div>
+											</div>
+									</li> -->
+								</ul>
+								<div class="minicart-info">
+									<div class="f1">
+										<p>共
+											<i class="total_num">1</i>
+											件商品
+										</p>
+										<p>
+											<span class="price">$0</span>
+										</p>
+									</div>
+									<div class="fr">
+										<p>
+											<a href="trolley.html" id="topay">去结算</a>
+										</p>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="header-main">
+				<div class="page">
+					<div class="header_left">
+						<div class="logo">
+							<a href="index.html">
+								<img src="https://static.asus.com.cn/store/20180911/14375551535398.png" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="nav">
+						<div class="menu">
+							<ul id="Mu1">
+								<li id="ml0"><a href="">华硕官网</a></li>
+								<li id="ml1"><a href="">个人及家用产品</a></li>
+								<li id="ml2"><a href="">热门产品</a></li>
+								<li id="ml3"><a href="">商用产品</a></li>
+								<li id="ml4"><a href="">服务与支持</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="search">
+						<div class="searchbar">
+							<form action="" id="searchbar_198">
+								<input type="text" placeholder="华硕官网" id="keyword">
+								<button class="btn-search">
+									<span><i class="iconfont">&#xe517;</i></span>
+								</button>
+							</form>
+							<div class="host">
+								<a href="#">玩家游戏本</a>
+								<a href="#">时尚轻薄本</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- 下拉 -->
+				<div class="nav-list-show">
+					<ul id="child_top_nav_1">
+						<li>
+							<a href="">
+								<p>
+									<img src="https://static.asus.com.cn/store/20180926/09455010110110.png" alt="">
+								</p>
+								<p>笔记本电脑</p>
+							</a>
+						</li>
+						
+					</ul>
+				</div>
+				<div class="hot-show">
+					<div class="hot-activity">
+						<ul class="js-hotactivity">
+							<li>
+								<a href="">
+									<img src="">
+									<p></p>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 主体 -->
+		<div class="center">
+			<div class="page">
+				<div class="ad"></div>
+				<div class="bread-crumbs"></div>
+				<div class="section">
+					<div class="lsidebar"></div>
+					<div class="right_main">
+						<div class="main">
+							<!-- 购物车主体 -->
+							<div class="cart-container">
+								<div class="cart_page">
+									<div class="cart-header">
+										<ul class="clearfix-1">
+											<li class="cart-input">
+												<input type="checkbox" name="items" class="check" id="checkedAllBtn" checked ='checked'/>
+												<label for="" class="checkbox_label">全选</label>
+											</li>
+											<li class="cart-goods">商品</li>
+											<li class="cart-price">销售价</li>
+											<li class="cart-num">数量</li>
+											<li class="cart-discount">优惠金额</li>
+											<li class="cart-point">积分</li>
+											<li class="cart-subtotal">小计</li>
+											<li class="cart-action">操作</li>
+										</ul>
+									</div>
+									<div class="cart-list">
+										<!-- 购物车条目 -->
+										<div class="cart-item">
+											<!-- 主商品 -->
+											<!-- <div class="cart-product">
+												<ul class="clearfix2">
+													<li class="cart-input">
+														<input type="checkbox" name="items" class="check">
+													</li>
+													<li class="cart-goods">
+														<div class="p-pic">
+															<a href="">
+																<img src="https://static.asus.com.cn/store/20180918/15071955575110.png" alt="">
+															</a>
+														</div>
+														<div class="p-title">
+															<a href="">
+																【超级会员日】【爆款预售】a豆ADOL13UA- 萌宠四面窄边框13英寸笔记本 (Windows10home/i7-8550U/8GB内存/256GB SSD/集成显卡)-皓月银<br>
+																<span class=" fix-empty"></span>
+															</a>
+														</div>
+													</li>
+													<li class="cart-price">4999</li>
+													<li class="cart-num">
+														<div class="p-quantity">
+															<a href="javascript:void(0);" class="btn-decrease">-</a>
+															<input type="text" class="q-input">
+															<a href="javascript:void(0);" class="btn-increase">+</a>
+														</div>
+														<p class="goods_num"></p>
+													</li>
+													<li class="cart-discount">$0</li>
+													<li class="cart-point">9998</li>
+													<li class="cart-subtotal">9998</li>
+													<li class="cart-action">
+														<a href="" class="btn-delete">
+															<i class="icon-fork">X</i>
+														</a>
+													</li>
+												</ul>
+											</div> -->
+											<!-- 赠品 -->
+											<div class="cart-active">
+												<div class="cart-goods-gift">
+													<div class="p-gift">
+														<span class="tag">
+															<b>[限时优惠]</b>
+															【超级会员日】-轻薄本                     
+														</span>
+													</div>
+													<div class="p-gift">
+														
+															<b>[赠品]</b>
+															【超级会员日】ASUS雅质电脑包(新)13英寸 / 600D涤纶 
+															<i>$168 x
+																<span class="pro-gift">2</span>
+															</i>    
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="order-discount">
+										<!-- 优惠促销 -->
+										<div class="order_promotion">
+											<h3>
+												<a href="" class="btn-collapse">-</a>
+												订单优惠
+											</h3>
+											<ul class="content">
+												<li>
+													<b>【包邮】</b>
+													订单总金额满69元包邮
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="order_price">
+										<a href="" class="btn-link">继续购物</a>
+										<p class="order-num">
+											共
+											<span class="allNum">2</span>
+											件商品，已选择
+											<span class="chooseNum">2</span>
+											件
+										</p>
+										<button class="btn-import">
+											<span>
+												<span>去结算</span>
+											</span>
+										</button>
+										<!-- 订单价格 -->
+										<div class="total-price">
+											<span>合计</span>
+											<b>￥0</b>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 底部 -->
+		<div class="footer">
+			<div class="service">
+				<div class="sales">
+					<ul class="clearfix4">
+						<li class="qi"><i class="icon1">  </i>7天无理由退货</li>
+						<li class="shiwu"><i class="icon2"> </i>15天免费换货</li>
+						<li class="man"><i class="icon3"></i>满69元包邮</li>
+						<li class="yuyue"><i class="icon4"></i> 预约维修服务</li>
+						<li class="last"><i class="icon5"></i>支持支付宝&花呗分期</li>
+					</ul>
+				</div>
+			</div>
+			<div class="helper">
+				<div class="h-2">
+					<div class="helper-item">
+						<dl class="content_list">
+							<dt class="content_title">
+								<a href="#">公司介绍</a>
+							</dt>
+							<dd><a href="#">关于华硕</a></dd>
+							<dd><a href="#">华硕承诺</a></dd>
+							<dd><a href="#">交易条款</a></dd>
+							<dd><a href="#">特别提醒</a></dd>
+						</dl>
+					</div>
+					<div class="helper-item">
+						<dl class="content-list">
+							<dt class="content-title">
+								<a href="#">购物指南</a>
+							</dt>
+							<dd><a href="#">订单说明</a></dd>
+							<dd><a href="#">会员注册</a></dd>
+							<dd><a href="#">会员账户安全与信息 </a></dd>
+							<dd><a href="#">购物流程</a></dd>
+							<dd><a href="#">积分使用说明</a></dd>
+							<dd><a href="#">优惠券使用说明</a></dd>
+							<dd><a href="#">常见问题 </a></dd>
+							<dd><a href="#">华硕商城服务协议说明 </a></dd>
+						</dl>
+					</div>
+					<div class="helper-item">
+						<dl class="content-list">
+							<dt class="content-title">
+								<a href="#">配送与付款</a>
+							</dt>
+							<dd><a href="#">订单说明</a></dd>
+							<dd><a href="#">会员注册</a></dd>
+							<dd><a href="#">会员账户安全与信息 </a></dd>
+							<dd><a href="#">购物流程</a></dd>
+							<dd><a href="#">积分使用说明</a></dd>
+							<dd><a href="#">优惠券使用说明</a></dd>
+							<dd><a href="#">常见问题 </a></dd>
+							<dd><a href="#">华硕商城服务协议说明 </a></dd>
+						</dl>
+					</div>
+					<div class="helper-item">
+						<dl class="content-list">
+							<dt class="content-title">
+								<a href="#">服务与支持</a>
+							</dt>
+							<dd><a href="#">关于华硕</a></dd>
+							<dd><a href="#">华硕承诺</a></dd>
+							<dd><a href="#">交易条款</a></dd>
+							<dd><a href="#">特别提醒</a></dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+			<div class="footer-info">
+				<div class="theme-footer">
+					<p>有任何购物问题请联系商城客服 | 电话：400-091-9520</p>
+					<p>沪ICP备11025349号-3 │ ASUSTeK Computer Inc. All Rights Reserved</p>
+					<div class="div_list">
+						<p>
+							<img src="https://static.asus.com.cn/static/store/images/735f16509d9a54d5ddade073f133e7dcf2c0a486.png?1499224546#h" alt="">
+							<a href="">沪公网安备&nbsp;31011202002313号</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

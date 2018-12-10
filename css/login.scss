@@ -1,0 +1,211 @@
+html,body,ul,li,ol,dl,dt,dd,p,span,h1,h2,h3,h4,h5,h6,select,form,div{
+	margin:0;
+	padding:0;
+}
+ul,li,ol{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+	color:#eee;
+}
+img{
+	display:block;
+}
+
+.page-container{
+	position: relative;
+	/*首*/
+	.header{
+		.header-main{
+			padding-top: 23px;
+			background: #fff;
+			position: relative;
+			.page1{
+				height: 77px;
+				overflow: hidden;
+				width: 1226px;
+				margin: 0 auto;
+				.logo{
+					a{
+						color:#333;
+						text-decoration: none;
+						img{
+							border:0 none;
+							vertical-align:middle;
+							display: inline-block;
+						}
+					}
+				}
+			}
+		}
+	}
+	/*主体*/
+	.passport_box{
+		background: #e34c6c;
+		min-height: 655px;
+		.login_bg_box{
+			padding-top: 75px;
+			width: 1200px;
+			margin: 0 auto;
+			height: 465px;
+			img{
+				border:0 none;
+				vertical-align:middle;
+				display: inline-block;
+			}
+		}
+		.content{
+			width: 380px;
+			min-height: 435px;
+			position: absolute;
+			top: 175px;
+			left:50%;
+			margin-left: 230px;
+			padding: 15px;
+			background: #fff;
+			overflow: hidden;
+			/*登录*/
+			.login{
+				display: block;
+				border: 0 none;
+				width: 350px;
+				padding: 0 15px;
+				margin: 0;
+				background: #fff;
+				.sign-title{
+					font-size: 24px;
+					padding: 0;
+					border-bottom: none;
+					margin-top: 30px;
+					margin-bottom: 30px;
+					height: 44px;
+					.sign-title-text{
+						text-align: center;
+						a{
+							padding-right: 20px;
+							font-size: 24px;
+							color: #8a8a8a;
+							cursor: pointer;
+							margin-left: 3px;
+							margin-right: 3px;
+							text-decoration: none;
+						}
+					}
+				}
+				.loginMsg{
+					position: relative;
+					width: 350px;
+					height: 425px;
+					background: gold;
+					input{
+						padding-left: 12px;
+						padding-right: 0;
+						height: 46px;
+						line-height: 46px;
+						font-size: 14px;
+						width: 310px;
+						color: #262626;	 
+						margin-top: 50px;
+						margin-left: 10px;
+					}
+					span{
+						position: absolute;
+						bottom: 150px;
+						left:30px;
+						color: red;
+						font-size: 24px;
+						display: none;
+					}
+					#login{
+						width: 300px;
+						height: 50px;
+						line-height: 50px;
+						background: skyblue;
+						/*margin-bottom: 60px;*/
+						position: absolute;
+						bottom: 65px;
+						margin-left: 24px;
+					}
+					a{
+						color: #333;
+						font-size: 16px;
+						position: absolute;
+						bottom: 42px;
+						left: 30px;
+					}
+				}
+			}
+			.register{
+				display: none;
+				border: 0 none;
+				width: 350px;
+				padding: 0 15px;
+				margin: 0;
+				background: #fff;
+				.sign-title{
+					font-size: 24px;
+					padding: 0;
+					border-bottom: none;
+					margin-top: 30px;
+					margin-bottom: 30px;
+					height: 44px;
+					.sign-title-text{
+						text-align: center;
+						a{
+							padding-right: 20px;
+							font-size: 24px;
+							color: #8a8a8a;
+							cursor: pointer;
+							margin-left: 3px;
+							margin-right: 3px;
+							text-decoration: none;
+						}
+					}
+				}
+				.registerMsg{
+					position: relative;
+					width: 350px;
+					height: 425px;
+					background: gold;
+					input{
+						padding-left: 12px;
+						padding-right: 0;
+						height: 46px;
+						line-height: 46px;
+						font-size: 14px;
+						width: 310px;
+						color: #262626;	 
+						margin-top: 50px;
+						margin-left: 10px;
+					}
+					span{
+						position: absolute;
+						bottom: 150px;
+						left:30px;
+						color: red;
+						font-size: 24px;
+						display: block;
+					}
+					#register{
+						width: 300px;
+						height: 50px;
+						line-height: 50px;
+						background: skyblue;
+						/*margin-bottom: 60px;*/
+						position: absolute;
+						bottom: 65px;
+						margin-left: 24px;
+					}
+					a{
+						color: #333;
+						font-size: 16px;
+						position: absolute;
+						bottom: 42px;
+						left: 30px;
+					}
+				}
+			}
+		}
+	}
+}

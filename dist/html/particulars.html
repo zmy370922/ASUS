@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>商品列表</title>
+		<link rel="stylesheet" href="../css/particulars.min.css">
+		<link rel="stylesheet" href="../css/asus_base.min.css">
+		
+		<script src="../js/require.js" async="true" defer data-main="../js/particulars"></script>
+	</head>
+	<body>
+		<!-- 首部 -->
+		<div class="header">
+			<div class="topbar">
+				<ul>
+					<li>
+						<a href="login.html">登录</a>|
+						<a href="login.html">注册</a>
+					</li>
+					<li><a href="">消息</a></li>
+					<li><a href="trolley.html">我的订单</a></li>
+					<li >
+						<div class="minicar">
+							<a href="">
+								购物车
+								<span>(</span>
+								<b class="sc_num""></b>
+								<span>)</span>
+							</a>
+							<div class="trolley">
+								<!-- <div class="t-1">购物车中还没有商品,赶紧选购吧！</div> -->
+								<ul>
+									<!-- <li>
+										<div class="goods-pic">
+											<a href="">
+												<img src="https://static.asus.com.cn/store/20180918/15071955575110.png" alt="">
+											</a>
+										</div>
+										<div class="goods-info">
+												<h3 class="goods-name">
+													<a href="">【超级会员日】【爆款预售】a豆ADOL13UA- 萌宠四面窄边框13英寸笔记本 (Windows10home/i7-8550U/8GB内存/256GB SSD/集成显卡)-皓月银</a>
+												</h3>
+												<div class="goods-price">
+													<p>x
+														<span class="p-quantity">
+															1
+														</span>
+														<a href="" class="action-delete">
+															<img src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1453631421,3403506882&fm=26&gp=0.jpg" alt="">
+														</a>
+													</p>
+												</div>
+											</div>
+										</li> -->
+								</ul>
+								<div class="minicart-info">
+									<div class="f1">
+										<p>共
+											<i class="total_num"></i>
+											件商品
+										</p>
+										<p>
+											<span class="price">0</span>
+										</p>
+									</div>
+									<div class="fr">
+										<p>
+											<a href="trolley.html" id="topay">去结算</a>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="header-main">
+				<div class="page">
+					<div class="header_left">
+						<div class="logo">
+							<a href="index.html">
+								<img src="https://static.asus.com.cn/store/20180911/14375551535398.png" alt="">
+							</a>
+						</div>
+					</div>
+					<div class="nav">
+						<div class="menu">
+							<ul id="Mu1">
+								<li id="ml0"><a href="">华硕官网</a></li>
+								<li id="ml1"><a href="">个人及家用产品</a></li>
+								<li id="ml2"><a href="">热门产品</a></li>
+								<li id="ml3"><a href="">商用产品</a></li>
+								<li id="ml4"><a href="">服务与支持</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="search">
+						<div class="searchbar">
+							<form action="" id="searchbar_198">
+								<input type="text" placeholder="华硕官网" id="keyword">
+								<button class="btn-search">
+									<span><i class="iconfont">&#xe517;</i></span>
+								</button>
+							</form>
+							<div class="host">
+								<a href="#">玩家游戏本</a>
+								<a href="#">时尚轻薄本</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- 下拉 -->
+				<div class="nav-list-show">
+					<ul id="child_top_nav_1">
+						<li>
+							<a href="">
+								<p>
+									<img src="https://static.asus.com.cn/store/20180926/09455010110110.png" alt="">
+								</p>
+								<p>笔记本电脑</p>
+							</a>
+						</li>
+						
+					</ul>
+				</div>
+				<div class="hot-show">
+					<div class="hot-activity">
+						<ul class="js-hotactivity">
+							<li>
+								<a href="">
+									<img src="">
+									<p></p>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 主体 -->
+		<div class="content">
+			<div class="page1">
+				<div class="gallery-banner"></div>
+				<div class="bread-crumbs">
+					<!-- 当前位置 -->
+					<span><a href="index.html">首页</a></span>
+					<span>></span>
+					<span class="now">a逗</span>
+				</div>
+				<div class="section">
+					<div class="lsidebar"></div>
+					<div class="right_main_margin">
+						<div class="main">
+							<!-- 商品列表开始 -->
+							<div class="page_maincontent">
+								<!-- 筛选区 -->
+								<div class="filter_container">
+									<div class="filter_title">
+										<h3>商品筛选</h3>
+										<div class="gallery-total">共<b class="result">12</b>件商品</div>
+										<div class="filter-clean">
+										<a href="#">重置筛选项</a>
+										</div>
+									</div>
+									<!-- 筛选条件 -->
+									<div class="gallery_filter">
+										<div class="filter_selected">
+											<dl class="f_s_l">
+												<dt class="f_s_t">您已选择：</dt>
+												<dd class="f_s_v">
+													
+												</dd>
+											</dl>
+										</div>
+										<div class="filter_lists">
+											<!-- 分类 -->
+											<dl class="filter_entries">
+												<dt class="f_e_l">分类:</dt>
+												<dd class="f_e_v">
+													<span><a href="#">鼠标</a></span>
+													<span><a href="#">移动电源</a></span>
+													<span><a href="#">包装</a></span>
+													<span><a href="#">笔记本电脑</a></span>
+												</dd>
+											</dl>
+										</div>
+									</div>
+
+									<!-- 排序状态条 -->
+
+									<div class="gallery_sortbar">
+										<div class="gallery-sort">
+											<a href="#" class="default-sort">
+												<em>默认</em>
+											</a>
+											<span></span>
+
+											<a href="" class="price-desc">
+												<em>价格</em>
+												<span class="icon_desc">↓</span>
+												<span class="icon_asc">↑</span>
+											</a>
+											<span></span>
+
+											<a href="" class="sale">
+												<em>销量</em>
+												<span class="icon_desc">↓</span>
+												<span class="icon_asc">↑</span>
+											</a>
+											<span></span>
+										</div>
+									</div>
+
+									<!-- 商品 -->
+
+									<div class="gallery-show">
+										<div class="gallery-grid">
+											<ul class="clearfix1">
+												<!-- <li>
+													<div class="goods-pic">
+														<a href="">
+															<img src="https://static.asus.com.cn/store/20180918/15071955575110.png" alt="">
+														</a>
+													</div>
+													<div class="goods-info">
+														<h3 class="goods-name">
+															<a href="">【爆款预售】a豆ADOL13UA- 萌宠四面窄边框13英寸笔记本 (Windows10home/i7-8550U/8GB内存/256GB SSD/集成显卡)-皓月银</a>
+														</h3>
+														<div class="goods-price">
+															<ins class="price">
+																￥5399
+															</ins>
+														</div>
+													</div>
+													<div class="goods-action">
+														<span class="p-quantity"></span>
+														<a href="" class="btn-major">
+															<span>
+																<span class="icon-cart2">&#xe653;
+																	加入购物车
+																</span>
+															</span>
+														</a>
+													</div>
+													<div class="goods-others">
+														<a href="javascript:void(0);" class="collect">
+															<span class="icon_pic">
+																收藏
+															</span>
+														</a>
+														<a href="javascript:void(0);" class="collected">
+															<span class="icon_pic2">
+																已收藏
+															</span>
+														</a>
+													</div>
+												</li> -->
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- 底部 -->
+		<div class="footer">
+			<div class="service">
+				<div class="sales">
+					<ul class="clearfix4">
+						<li class="qi"><i class="icon1">  </i>7天无理由退货</li>
+						<li class="shiwu"><i class="icon2"> </i>15天免费换货</li>
+						<li class="man"><i class="icon3"></i>满69元包邮</li>
+						<li class="yuyue"><i class="icon4"></i> 预约维修服务</li>
+						<li class="last"><i class="icon5"></i>支持支付宝&花呗分期</li>
+					</ul>
+				</div>
+			</div>
+			<div class="helper">
+				<div class="h-2">
+					<div class="helper-item">
+						<dl class="content_list">
+							<dt class="content_title">
+								<a href="#">公司介绍</a>
+							</dt>
+							<dd><a href="#">关于华硕</a></dd>
+							<dd><a href="#">华硕承诺</a></dd>
+							<dd><a href="#">交易条款</a></dd>
+							<dd><a href="#">特别提醒</a></dd>
+						</dl>
+					</div>
+					<div class="helper-item">
+						<dl class="content-list">
+							<dt class="content-title">
+								<a href="#">购物指南</a>
+							</dt>
+							<dd><a href="#">订单说明</a></dd>
+							<dd><a href="#">会员注册</a></dd>
+							<dd><a href="#">会员账户安全与信息 </a></dd>
+							<dd><a href="#">购物流程</a></dd>
+							<dd><a href="#">积分使用说明</a></dd>
+							<dd><a href="#">优惠券使用说明</a></dd>
+							<dd><a href="#">常见问题 </a></dd>
+							<dd><a href="#">华硕商城服务协议说明 </a></dd>
+						</dl>
+					</div>
+					<div class="helper-item">
+						<dl class="content-list">
+							<dt class="content-title">
+								<a href="#">配送与付款</a>
+							</dt>
+							<dd><a href="#">订单说明</a></dd>
+							<dd><a href="#">会员注册</a></dd>
+							<dd><a href="#">会员账户安全与信息 </a></dd>
+							<dd><a href="#">购物流程</a></dd>
+							<dd><a href="#">积分使用说明</a></dd>
+							<dd><a href="#">优惠券使用说明</a></dd>
+							<dd><a href="#">常见问题 </a></dd>
+							<dd><a href="#">华硕商城服务协议说明 </a></dd>
+						</dl>
+					</div>
+					<div class="helper-item">
+						<dl class="content-list">
+							<dt class="content-title">
+								<a href="#">服务与支持</a>
+							</dt>
+							<dd><a href="#">关于华硕</a></dd>
+							<dd><a href="#">华硕承诺</a></dd>
+							<dd><a href="#">交易条款</a></dd>
+							<dd><a href="#">特别提醒</a></dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+			<div class="footer-info">
+				<div class="theme-footer">
+					<p>有任何购物问题请联系商城客服 | 电话：400-091-9520</p>
+					<p>沪ICP备11025349号-3 │ ASUSTeK Computer Inc. All Rights Reserved</p>
+					<div class="div_list">
+						<p>
+							<img src="https://static.asus.com.cn/static/store/images/735f16509d9a54d5ddade073f133e7dcf2c0a486.png?1499224546#h" alt="">
+							<a href="">沪公网安备&nbsp;31011202002313号</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

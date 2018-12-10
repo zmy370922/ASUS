@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<script>
+			var arr = [{
+				id:"0",
+				img:"https://static.asus.com.cn/store/album/images/WO764WRFLVFPBS/18262210151101.jpg",
+				title:"【新品上市】Y5000UB微边框轻薄本",
+				des:"微边框 / 全新八代处理器",
+				price:"3999"
+			},
+			{
+				id:"1",
+				img:"https://static.asus.com.cn/store/20180912/17461454995654.jpg",
+				title:"飞行堡垒6-FX86",
+				des:"6.5mm窄边框 / 战甲X型设计",
+				price:"7499"
+			},
+			{
+				id:"2",
+				img:"https://static.asus.com.cn/store/20180828/23403450505110.jpg",
+				title:"FL8000UF-新顽石5代游戏本",
+				des:"i7-8550U /  MX130",
+				price:"5199"
+			},
+			{
+				id:"3",
+				img:"https://static.asus.com.cn/store/20180918/15071955100491.jpg",
+				title:"飞行堡垒6-FX86",
+				des:"6.5mm窄边框 / 战甲X型设计",
+				price:"8899"
+			},
+			{
+				id:"4",
+				img:"https://static.asus.com.cn/store/20180828/22564848535157.jpg",
+				title:"飞行堡垒5代FX80GM",
+				des:"i7-8750H / 16GB内存",
+				price:"9696"
+			},
+			{
+				id:"5",
+				img:"https://static.asus.com.cn/store/20180929/17403753534810.png",
+				title:"飞行堡垒5代FX80GM",
+				des:"6.5mm窄边框 / 战甲X型设计",
+				price:"10199"
+			},
+			{
+				id:"6",
+				img:"https://static.asus.com.cn/store/20180929/17403753534810.png",
+				title:"飞行堡垒5代FX80GM",
+				des:"6.5mm窄边框 / 战甲X型设计",
+				price:"10199"
+			},
+			{
+				id:"7",
+				img:"https://static.asus.com.cn/store/20180929/17403753534810.png",
+				title:"飞行堡垒5代FX80GM",
+				des:"6.5mm窄边框 / 战甲X型设计",
+				price:"10199"
+			},
+			{
+				id:"8",
+				img:"https://static.asus.com.cn/store/20180929/17403753534810.png",
+				title:"飞行堡垒5代FX80GM",
+				des:"6.5mm窄边框 / 战甲X型设计",
+				price:"10199"
+			},
+			{
+				id:"9",
+				img:"https://static.asus.com.cn/store/20181016/14340949569710.jpg",
+				title:"【新品首发】顽石热血版高性能娱乐本",
+				des:"十系显卡 / 双硬盘组合方案",
+				price:"3999"
+			},
+			{
+				id:"10",
+				img:"https://static.asus.com.cn/store/20180828/23403450505110.jpg",
+				title:"FL8000UF-新顽石5代游戏本",
+				des:"i7-8550U /  MX130",
+				price:"5199"
+			},
+			{
+				id:"11",
+				img:"https://static.asus.com.cn/store/album/images/WO764WRFLVFPBS/18262210151101.jpg",
+				title:"【新品上市】Y5000UB微边框轻薄本",
+				des:"微边框 / 全新八代处理器",
+				price:"3999"
+			},
+			{
+				id:"12",
+				img:"https://static.asus.com.cn/store/20180929/17403753534810.png",
+				title:"飞行堡垒5代FX80GM",
+				des:"6.5mm窄边框 / 战甲X型设计",
+				price:"10199"
+			},
+			{
+				id:"13",
+				img:"https://static.asus.com.cn/store/album/images/WO764WRFLVFPBS/18262210151101.jpg",
+				title:"【新品上市】Y5000UB微边框轻薄本",
+				des:"微边框 / 全新八代处理器",
+				price:"3999"
+			},
+			{
+				id:"14",
+				img:"https://static.asus.com.cn/store/20180828/23403450505110.jpg",
+				title:"FL8000UF-新顽石5代游戏本",
+				des:"i7-8550U /  MX130",
+				price:"5199"
+			},
+			{
+				id:"15",
+				img:"https://static.asus.com.cn/store/20180912/17461454995654.jpg",
+				title:"飞行堡垒6-FX86",
+				pid:"1",
+				price:"7499"
+			},
+			{
+				id:"16",
+				img:"https://static.asus.com.cn/store/20180929/17403753534810.png",
+				title:"飞行堡垒6-FX86",
+				pid:"2",
+				price:"10199"
+			},
+			{
+				id:"17",
+				img:"https://static.asus.com.cn/store/20180828/23403450505110.jpg",
+				title:"飞行堡垒6-FX86",
+				pid:"3",
+				price:"5199"
+			},
+			{
+				id:"18",
+				img:"https://static.asus.com.cn/store/20180918/15071955100491.jpg",
+				title:"飞行堡垒6-FX86",
+				pid:"4",
+				price:"8899"
+			},
+			{
+				id:"19",
+				img:"https://static.asus.com.cn/store/20180828/22564848535157.jpg",
+				title:"飞行堡垒6-FX86",
+				pid:"5",
+				price:"9699"
+			},
+			{
+				id:"20",
+				img:"https://static.asus.com.cn/store/20180828/23154751515198.jpg",
+				title:"飞行堡垒6-FX86",
+				pid:"6",
+				price:"7499"
+			},
+			{
+				id:"21",
+				img:"https://static.asus.com.cn/store/20181121/10054153999754.jpg",
+				title:"飞行堡垒5代FX80GM",
+				des:"6.5mm窄边框 / 战甲X型设计",
+				price:"10199"
+			},
+			{
+				id:"22",
+				img:"https://static.asus.com.cn/store/20181121/10054153999754.jpg",
+				title:"飞行堡垒5代FX80GM",
+				des:"6.5mm窄边框 / 战甲X型设计",
+				price:"10199"
+			},
+			{
+				id:"23",
+				img:"https://static.asus.com.cn/store/20180828/23275357981001.jpg",
+				title:"飞行堡垒5代FX80GM",
+				des:"6.5mm窄边框 / 战甲X型设计",
+				price:"10199"
+			},
+			{
+				id:"24",
+				img:"https://static.asus.com.cn/store/20180828/23154751515198.jpg",
+				title:"飞行堡垒5代FX80GM",
+				des:"6.5mm窄边框 / 战甲X型设计",
+				price:"10199"
+			},
+			{
+				id:"25",
+				img:"https://static.asus.com.cn/store/20180828/23154751515198.jpg",
+				title:"飞行堡垒5代FX80GM",
+				des:"6.5mm窄边框 / 战甲X型设计",
+				price:"10199"
+			},
+			{
+				id:"26",
+				img:"https://static.asus.com.cn/store/20180828/23275357981001.jpg",
+				title:"飞行堡垒5代FX80GM",
+				des:"6.5mm窄边框 / 战甲X型设计",
+				price:"10199"
+			},
+			{
+				id:"27",
+				img:"https://static.asus.com.cn/store/20180828/23131699984950.jpg",
+				title:"飞行堡垒5代FX80GM",
+				des:"6.5mm窄边框 / 战甲X型设计",
+				price:"10199"
+			},
+			{
+				id:"28",
+				img:"https://static.asus.com.cn/store/20180912/17442697995650.jpg",
+				title:"飞行堡垒5代FX80GM",
+				des:"6.5mm窄边框 / 战甲X型设计",
+				price:"10199"
+			},
+			{
+				id:"29",
+				img:"https://static.asus.com.cn/store/20180828/23131699984950.jpg",
+				title:"飞行堡垒5代FX80GM",
+				des:"6.5mm窄边框 / 战甲X型设计",
+				price:"10199"
+			},
+			{
+				id:"30",
+				img:"https://static.asus.com.cn/store/20180918/15071248565610.png",
+				title:"飞行堡垒5代FX80GM",
+				des:"6.5mm窄边框 / 战甲X型设计",
+				price:"10199"
+			},
+			{
+				id:"31",
+				img:"https://static.asus.com.cn/store/20180918/15071248565610.png",
+				title:"飞行堡垒5代FX80GM",
+				des:"6.5mm窄边框 / 战甲X型设计",
+				price:"10199"
+			},
+			{
+				id:"32",
+				img:"https://static.asus.com.cn/store/20180918/15071248565610.png",
+				title:"飞行堡垒5代FX80GM",
+				des:"6.5mm窄边框 / 战甲X型设计",
+				price:"10199"
+			},
+			{
+				id:"33",
+				img:"https://static.asus.com.cn/store/20180918/15074650101485.jpg",
+				title:"飞行堡垒5代FX80GM",
+				des:"6.5mm窄边框 / 战甲X型设计",
+				price:"10199"
+			},
+			{
+				id:"34",
+				img:"https://static.asus.com.cn/store/20180923/14493648514810.jpg",
+				title:"飞行堡垒5代FX80GM",
+				des:"6.5mm窄边框 / 战甲X型设计",
+				price:"10199"
+			},
+			{
+				id:"35",
+				img:"https://static.asus.com.cn/store/20180912/17460297485610.jpg",
+				title:"飞行堡垒5代FX80GM",
+				des:"6.5mm窄边框 / 战甲X型设计",
+				price:"10199"
+			}
+			]
+			var str = JSON.stringify(arr);
+			document.write(str);
+		</script>
+	</head>
+	<body>
+		
+	</body>
+</html>
